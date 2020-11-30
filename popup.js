@@ -1,10 +1,10 @@
-let btn = document.getElementById('btn');
-let tablink;
+var tablink;
+
 chrome.tabs.getSelected(null,function(tab) {
     tablink = tab.url;
 });
 
-btn.onclick = function() {
+onload = function() {
     console.log(tablink);
 
     var qrElem = document.getElementById('qrcode');
