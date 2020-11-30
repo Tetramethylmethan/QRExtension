@@ -1,12 +1,7 @@
 var tablink;
-
 chrome.tabs.getSelected(null,function(tab) {
     tablink = tab.url;
-});
-
-onload = function() {
     console.log(tablink);
-
     var qrElem = document.getElementById('qrcode');
     qrElem.innerHTML = "";
 
@@ -17,5 +12,5 @@ onload = function() {
         colorDark: "#000000",
         colorLight: "#ffffff",
         correctLevel: QRCode.CorrectLevel.H
-    });
-    }
+    }); 
+});
