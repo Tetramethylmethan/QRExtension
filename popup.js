@@ -9,8 +9,8 @@ btn.onclick = function() {
 
     var qrElem = document.getElementById('qrcode');
     qrElem.innerHTML = "";
-    
-    var qrcode = new QRCode(qrElem, "", {
+
+    var qrcode = new QRCode(qrElem, tablink, {
         text: "tablink",
         width: 300,
         height: 300,
