@@ -2,5 +2,9 @@
     "name": "URLtoQR",
     "version": "1.0",
     "description": "Chrome extension for converting a Url to QR",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["tabs","activeTab","declarativeContent", "storage"],
     "manifest_version": 2
 }
