@@ -1,0 +1,6 @@
+{
+    "name": "URLtoQR",
+    "version": "1.0",
+    "description": "Chrome extension for converting a Url to QR",
+    "manifest_version": 2
+}
