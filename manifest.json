@@ -6,5 +6,6 @@
         "default_popup": "popup.html"
     },
     "permissions": ["tabs","activeTab","declarativeContent", "storage"],
+    "icons": {"128": "images/128icon.png"},
     "manifest_version": 2
 }
